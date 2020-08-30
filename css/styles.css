@@ -22,7 +22,16 @@ body {
 
 /* sait nav */
 .sait-nav {
-  display: inline-flex;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.sait-nav-list {
+  display: flex;
+}
+
+.flexbox {
+  display: flex;
 }
 
 .accent {
@@ -34,6 +43,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 90px;
 }
 
 .sait-nav .link {
@@ -49,12 +59,17 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .sait-nav .item {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.sait-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .sait-nav .link {
@@ -71,15 +86,18 @@ body {
   color: var(--accent-color);
 }
 /* Header */
-
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .header a {
-  display: inline-block;
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-right: 50px;
 }
 .header a:hover {
   color: var(--accent-color);
@@ -87,6 +105,12 @@ body {
 .header a:focus {
   color: var(--accent-color);
 }
+
+.header .flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
+
 /* Hero */
 .hero {
   background-color: #2f303a;
@@ -167,7 +191,11 @@ body {
 }
 .address-text {
   color: var(--fons-color);
-  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1/71;
+  letter-spacing: 0.03em;
 }
 .footer-link {
   color: var(--footer-link-color);
