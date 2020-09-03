@@ -40,7 +40,7 @@ body {
 
 .flexbox {
   display: flex;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #ececec;
 }
 
 .accent {
@@ -328,8 +328,6 @@ body {
 }
 .button-nav > li {
   margin-right: 10px;
-  padding-bottom: 55px;
-  padding-top: 100px;
 }
 
 .button-navigeychin {
@@ -348,19 +346,28 @@ body {
   background: #2196f3;
 }
 .portfolio {
+  display: block;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.elements {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 55px;
 }
 .elemens {
   width: 370px;
   margin-right: 30px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
+  border: 1px solid #ececec;
 }
+
 .elemens:nth-child(3n) {
   margin-right: 0px;
 }
 .elemens:nth-last-child(-n + 3) {
-  padding-bottom: 95px;
+  margin-bottom: 0px;
 }
 .portfolio-title {
   color: var(--primery-text-color);
