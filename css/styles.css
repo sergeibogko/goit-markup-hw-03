@@ -35,11 +35,12 @@ body {
   display: flex;
 }
 .sait-nav .item:not(:last-child) {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .flexbox {
   display: flex;
+  border-bottom: 1px solid red;
 }
 
 .accent {
@@ -80,6 +81,7 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-right: 0px;
 
   font-weight: 500;
   font-size: 14px;
@@ -125,6 +127,8 @@ body {
   justify-content: center;
   flex-direction: column;
   display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: #2f303a;
   text-align: center;
@@ -179,6 +183,10 @@ body {
   margin-bottom: 50px;
 }
 /* Features */
+.features-cont {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .features-title {
   margin-bottom: 10px;
 
@@ -216,6 +224,10 @@ body {
   margin: 0px;
 }
 /* чем мы занимаемся */
+.doing {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .doing-list {
   display: flex;
   flex-wrap: wrap;
