@@ -40,7 +40,6 @@ body {
 
 .flexbox {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 
 .accent {
@@ -96,6 +95,9 @@ body {
   color: var(--accent-color);
 }
 /* Header */
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .header a {
   padding-top: 32px;
@@ -370,6 +372,11 @@ body {
   margin-bottom: 0px;
 }
 .portfolio-title {
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin: 0px;
+
   color: var(--primery-text-color);
   font-style: normal;
   font-weight: bold;
@@ -379,6 +386,12 @@ body {
 }
 
 .portfolio-text {
+  padding-top: 4px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  margin: 0px;
+
   color: var(--text-color);
   font-style: normal;
   font-weight: normal;
